@@ -1,3 +1,5 @@
+const utils = require('./utils')
+
 module.exports = {
     base: '/',
     head: [
@@ -19,9 +21,10 @@ module.exports = {
         repoLabel: 'My GitHub',
         logo: '/wrrjj.jpg',
         nav: [
-            {text: 'Blog', link: '/blog/FirstBlog'},
-            {text: 'Bookmark', link: '/guide/'},
-            {text: 'Tools', link: '/guide/'},
+            {text: 'Blog', link: '/blog/'},
+            {text: 'Notes', link: '/notes/'},
+            // {text: 'Bookmark', link: '/guide/'},
+            // {text: 'Tools', link: '/guide/'},
             {
                 text: 'About',
                 items: [
@@ -43,11 +46,8 @@ module.exports = {
             },
             {text: 'VuePress', link: 'https://vuepress.vuejs.org/zh/guide/', target: '_blank'}
         ],
-        // sidebar: [
-        //     '/',
-        //     '/page-a',
-        //     ['/page-b', 'Explicit link text']
-        // ]
+        sidebar: utils.getSidebars(),
+        lastUpdated: 'Last Updated',
     },
     port: '3000'
 }
