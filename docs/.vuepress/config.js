@@ -3,7 +3,7 @@ const utils = require('./utils')
 module.exports = {
     base: '/',
     head: [
-        ['link', {rel: 'icon', href: 'wrrjj.jpg'}],
+        ['link', {rel: 'icon', href: '/wrrjj.jpg'}],
         ["script", {}, `var _hmt = _hmt || [];
       (function() {
        var hm = document.createElement("script");

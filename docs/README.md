@@ -3,7 +3,7 @@ home: true
 heroImage: /wrrjj.jpg
 heroText: Wangrr's Blog
 tagline: 点点滴滴汇成江河湖海
-actionText: Getting Started →
+actionText: Get Started →
 actionLink: /blog/
 features:
 - title: Blog
