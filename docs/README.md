@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /wrrjj.jpg
+heroImage: /logo.jpg
 heroText: Wangrr's Blog
 tagline: 点点滴滴汇成江河湖海
 actionText: Get Started →
