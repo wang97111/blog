@@ -3,7 +3,7 @@ const utils = require('./utils')
 module.exports = {
     base: '/',
     head: [
-        ['link', {rel: 'icon', href: '/wrrjj.jpg'}],
+        ['link', {rel: 'icon', href: '/logo.jpg'}],
         ["script", {}, `var _hmt = _hmt || [];
       (function() {
        var hm = document.createElement("script");
@@ -16,10 +16,10 @@ module.exports = {
     title: `Wangrr's Blog`,
     description: "This is a blog.",
     themeConfig: {
-        search: true,
+        search: false,
         repo: 'https://github.com/wang97111/blog',
         repoLabel: 'My GitHub',
-        logo: '/wrrjj.jpg',
+        logo: '/logo.jpg',
         nav: [
             {text: 'Blog', link: '/blog/'},
             {text: 'Notes', link: '/notes/'},
@@ -49,5 +49,6 @@ module.exports = {
         sidebar: utils.getSidebars(),
         lastUpdated: 'Last Updated',
     },
-    port: '3000'
+    port: '3000',
+    plugins: ['@vuepress/back-to-top'],
 }
