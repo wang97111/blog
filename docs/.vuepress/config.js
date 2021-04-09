@@ -16,13 +16,26 @@ module.exports = {
     title: `Wangrr's Blog`,
     description: "This is a blog.",
     themeConfig: {
-        search: false,
+        search: true,
         repo: 'https://github.com/wang97111/blog',
         repoLabel: 'My GitHub',
         logo: '/logo.jpg',
         nav: [
             {text: 'Blog', link: '/blog/'},
-            {text: 'Notes', link: '/notes/'},
+            {
+                text: 'Notes',
+                items: [
+                    {
+                        text: 'Web Learning',
+                        items: [
+                            {text: 'Css', link: '/notes/css/'},
+                            {text: 'JS', link: '/notes/js/'},
+                            {text: 'Vue', link: '/notes/vue/'},
+                            {text: 'Wechat', link: '/notes/wechat/'},
+                        ]
+                    }
+                ]
+            },
             // {text: 'Bookmark', link: '/guide/'},
             // {text: 'Tools', link: '/guide/'},
             {
@@ -47,6 +60,7 @@ module.exports = {
             {text: 'VuePress', link: 'https://vuepress.vuejs.org/zh/guide/', target: '_blank'}
         ],
         sidebar: utils.getSidebars(),
+        sidebarDepth: 2,
         lastUpdated: 'Last Updated',
     },
     port: '3000',

@@ -1,24 +1,75 @@
-const path = require('path')
-const fs = require('fs')
+// const path = require('path')
+// const fs = require('fs')
 
-const sidebarMap = [
+/*const sidebarMap = [
     {title: 'Blog', dirname: 'blog', flag: 0},
     {title: 'Notes', dirname: 'notes', flag: 1},
     {title: 'BookStore', dirname: 'book', flag: 0, collapsable: true},
-]
+]*/
 exports.getSidebars = title => {
     const siderbar = {
         '/blog/': [
             {
+                isGroup: true,
                 title: 'Blog',
                 collapsable: false,
                 children: [
+                    '',
+                    '/blog/FirstBlog.md'
                     // {title: 'items01', path: '/blog/'},
                     // {title: 'items02', path: '/blog/FirstBlog'}
                 ]
             }
+        ],
+        /*'/notes/css/': [
+            {
+                title: 'CSS',
+                collapsable: false,
+                children: [
+                    '',
+                    'a',
+                    'b',
+                ]
+            }
+        ],
+        '/notes/js/': [
+            {
+                title: 'JS',
+                collapsable: false,
+                children: ['']
+            }
+        ],
+        '/notes/vue/': [
+            {
+                title: 'VUE',
+                collapsable: false,
+                children: ['']
+            }
+        ],
+        '/notes/wechat/': [
+            {
+                title: 'Wechat',
+                collapsable: false,
+                children: ['']
+            }
+        ],*/
+        '/notes/':[
+            {
+                title: 'Notes',
+                collapsable: false,
+                children: [
+                    {
+                        title: 'css',
+                        collapsable: false,
+                        children: ['']
+                    },
+
+                ]
+            }
         ]
+
     }
+    return siderbar;
     /*
     * sidebarMap.forEach(({ title, dirname, flag, collapsable }) => {
     let dirpath = path.resolve(__dirname, '../' + dirname)
@@ -59,5 +110,4 @@ exports.getSidebars = title => {
       }).filter(item => item)
     }
   })*/
-    return siderbar;
 }
