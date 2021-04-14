@@ -7,7 +7,7 @@
     {title: 'BookStore', dirname: 'book', flag: 0, collapsable: true},
 ]*/
 exports.getSidebars = title => {
-    console.log(title,'title')
+    console.log(title, 'title')
     const siderbar = {
         '/blog/': [
             {
@@ -50,6 +50,13 @@ exports.getSidebars = title => {
         '/notes/wechat/': [
             {
                 title: 'Wechat',
+                collapsable: false,
+                children: ['']
+            }
+        ],
+        '/tools/': [
+            {
+                title: 'Tools',
                 collapsable: false,
                 children: ['']
             }

@@ -37,7 +37,7 @@ module.exports = {
                 ]
             },
             // {text: 'Bookmark', link: '/guide/'},
-            // {text: 'Tools', link: '/guide/'},
+            {text: 'Tools', link: '/tools/'},
             {
                 text: 'About',
                 items: [
