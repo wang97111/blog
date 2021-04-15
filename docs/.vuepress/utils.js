@@ -58,7 +58,7 @@ exports.getSidebars = title => {
             {
                 title: 'Tools',
                 collapsable: false,
-                children: ['']
+                children: ['', 'Software']
             }
         ]
     }
