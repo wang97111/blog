@@ -16,7 +16,7 @@ exports.getSidebars = title => {
                 collapsable: false,
                 children: [
                     '',
-                    '/blog/FirstBlog.md'
+                    '/blog/Nanjing.md'
                     // {title: 'items01', path: '/blog/'},
                     // {title: 'items02', path: '/blog/FirstBlog'}
                 ]

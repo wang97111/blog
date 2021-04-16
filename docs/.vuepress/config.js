@@ -64,5 +64,5 @@ module.exports = {
         lastUpdated: 'Last Updated',
     },
     port: '3000',
-    plugins: ['@vuepress/back-to-top'],
+    plugins: ['@vuepress/back-to-top']
 }

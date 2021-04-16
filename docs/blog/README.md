@@ -1,3 +1,5 @@
+# Hacker
+
 _**1234**_
 `qwewqr`
 1234asdas
@@ -6,7 +8,7 @@ _**1234**_
 Hacker
 ---
 
-:tada: :100:
+:tada: :100: :feet: :kiss:
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -14,20 +16,18 @@ Hacker
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-
-
-::: tip
+::: tip 
 这是一个提示
 :::
 
-::: warning
+::: warning 
 这是一个警告
 :::
 
-::: danger
+::: danger 
 这是一个危险警告
 :::
 
-::: details
+::: details 
 这是一个详情块，在 IE / Edge 中不生效
 :::
