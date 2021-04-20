@@ -58,13 +58,13 @@
 - 钟山风景区套票【92元/人】:beginner:南京站旁，一大片，可大半天，步行:runner:
 
 
-- 凯瑟琳广场（line friends）【拍照、网红熊】:beginner:1号线鼓楼站   
+- 凯瑟琳广场（line friends）【拍照、网红熊】:beginner:1号线鼓楼站         
   <img class="w-mini" :src="$withBase('/file/nanjing/xiong.png')" alt="foo">
-- 鱼嘴湿地公园【南京小垦丁，看日落:ribbon:】:beginner:1号门，走个五六分钟(荣：大致位置左下角)
+- 鱼嘴湿地公园【南京小垦丁，看日落:ribbon:】:beginner:1号门，走个五六分钟(荣：大致位置左下角)         
   <img class="w-mini" :src="$withBase('/file/nanjing/yuzui.png')" alt="foo">
-- 先锋书店【五台山总店，可拍照:ribbon:】:beginner:地铁1号线珠江路地铁站1号出口（荣：大致位置左上角）
+- 先锋书店【五台山总店，可拍照:ribbon:】:beginner:地铁1号线珠江路地铁站1号出口（荣：大致位置左上角）         
   <img class="w-mini" :src="$withBase('/file/nanjing/xianfeng.png')" alt="foo">
-- 天之都大厦露台【新街口可散步过去,夜景，拍照:ribbon:】:beginner:如家酒店标识牌子，右拐进电梯37楼
+- 天之都大厦露台【新街口可散步过去,夜景，拍照:ribbon:】:beginner:如家酒店标识牌子，右拐进电梯37楼         
   <img class="w-mini" :src="$withBase('/file/nanjing/tianzhidu.png')" alt="foo">
 
 #### 吃食
