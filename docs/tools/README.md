@@ -20,6 +20,20 @@
 - PDF工具 [:point_right:点我](https://easypdf.com/cn)
 - WakaTime 代码记录 [:point_right:点我](https://wakatime.com/)
 
+## 技术专区
+
+- Github[:point_right:点我](https://github.com/)
+- 码云gitee[:point_right:点我](https://gitee.com/)
+- 博客园[:point_right:点我](https://www.cnblogs.com/)
+- 掘金[:point_right:点我](https://juejin.cn/)
+- 知乎[:point_right:点我](https://www.zhihu.com/hot)
+- 简书[:point_right:点我](https://www.jianshu.com/)
+- CSDN[:point_right:点我](https://blog.csdn.net/)
+- segmentfault技术社区[:point_right:点我](https://segmentfault.com/)
+- oschina开源社区[:point_right:点我](https://www.oschina.net/)
+- 廖雪峰的官方网站[:point_right:点我](https://www.liaoxuefeng.com/)
+- 微信开放社区[:point_right:点我](https://developers.weixin.qq.com/community/homepage)
+
 ## 素材
 
 - 今日热榜官网 [:point_right:点我](https://tophub.today/)
